@@ -30,7 +30,7 @@ value:'javascript',label:'javascript'
             setSearchString(event.target.value)
           }
           const listHandler=event=>{
-            event.preventDefault()
+           // event.preventDefault();
     setSelected(event)
           }
   return (
